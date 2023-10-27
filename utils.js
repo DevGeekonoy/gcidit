@@ -17,7 +17,7 @@ async function sendEMail({
   threat,
   details,
 }) {
-  const recipients = ["nandkishor@geekonomy.in"];
+  const recipients = ["info@gcidt.com"];
   const fullName = `${firstName} ${lastName}`;
   const mailOptions = {
     from: "info@gcidt.com",
